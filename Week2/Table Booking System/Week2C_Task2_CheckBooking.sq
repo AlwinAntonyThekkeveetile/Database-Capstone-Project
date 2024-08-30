@@ -1,0 +1,17 @@
+USE littlelemondm;
+
+DELIMITER //
+CREATE PROCEDURE CheckBooking (IN booking_date DATE, IN table_no INT)
+BEGIN
+IF EXISTS(SELECT 1 FROM bookings WHERE BookingDate = booking_date AND TableNumber = table_no )
+THEN
+SELECT CONCAT("Table",table_no,"is Already Booked") AS BookingStaus;
+ELSE
+SELECT CONCAT("Table",table_no,"is not Booked yet") AS BookingStaus;
+END IF;
+END//
+DELIMITER ;
+
+CALL CheckBooking("2022-11-12",3)
+
+
