@@ -1,5 +1,4 @@
 # db-capstone-project
-Data Base Project
-Data Base Capstone project
+Meta-database-engineer-Data Base Capstone project
 
 Auther - Alwin Antony
