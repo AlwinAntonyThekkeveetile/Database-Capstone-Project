@@ -2,3 +2,8 @@
 Meta-database-engineer-Data Base Capstone project
 
 Auther - Alwin Antony
+
+## Languages Used
+- Python
+- Mysql
+  
