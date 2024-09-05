@@ -1,4 +1,4 @@
-USE littlelemondb;
+USE littlelemondm;
 DELIMITER //
 CREATE PROCEDURE CancelOrder(IN id INT)
 BEGIN
