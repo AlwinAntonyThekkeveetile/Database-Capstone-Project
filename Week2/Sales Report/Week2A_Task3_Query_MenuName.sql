@@ -1,4 +1,4 @@
-USE littlelemondb;
-SELECT MenuName FROM Menus
-JOIN Orders ON Menus.MenuID = Orders.MenuID
-WHERE OrderID = ANY(SELECT OrderID FROM Orders WHERE Quantity > 2);
+USE littlelemondm;
+SELECT MenuName FROM menu
+JOIN Orders ON menu.menuID = orders.MenuID
+WHERE OrderID = ANY(SELECT OrderID FROM Orders WHERE Quantity > 2);  
