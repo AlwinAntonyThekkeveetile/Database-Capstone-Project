@@ -6,17 +6,18 @@ In this project, I was required to create a data model for Little Lemon Restaura
 
 I have demonstrated my ability with the following tools and software:
 
--Git,
--MySQL Workbench,
--Tableau,
--Python,
--Jupyter Notebook,
-In this project, I have proven my ability to:
+.Git,
+.MySQL Workbench,
+.Tableau,
+.Python,
+.Jupyter Notebook,
 
-Set up a database project,
--Add sales reports,
--Create a table booking system,
--Work with data analytics and visualization,
--Create a database client.
+
+In this project, I have proven my ability to:
+.Set up a database project,
+#Add sales reports,
+.Create a table booking system,
+.Work with data analytics and visualization,
+.Create a database client.
 
   
